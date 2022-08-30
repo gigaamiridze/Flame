@@ -1,0 +1,10 @@
+body {
+  overflow-x: hidden;
+  .first-section {
+    position: relative;
+    background-color: $black;
+    .explosions-video {
+      height: 790px;
+    }
+  }
+}
