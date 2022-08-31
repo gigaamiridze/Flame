@@ -80,9 +80,17 @@ body {
           background-color: $grey;
           border-radius: 50%;
           @include flex-property(flex, center, center);
+          @include transition(background-color, 0.3s, ease-in-out);
+          &:hover {
+            background-color: $purple;
+          }
           &::before {
             font-weight: $regular;
             @include text-property(13px, "FontAwesome", $black, none);
+            @include transition(color, 0.3s, ease-in-out);
+          }
+          &:hover::before {
+            color: $white;
           }
         }
         .youtube::before {

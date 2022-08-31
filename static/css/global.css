@@ -222,6 +222,12 @@ body .first-section .horizontal-block .social-icons a {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .first-section .horizontal-block .social-icons a:hover {
+  background-color: #5b259e;
 }
 body .first-section .horizontal-block .social-icons a::before {
   font-weight: 400;
@@ -229,6 +235,12 @@ body .first-section .horizontal-block .social-icons a::before {
   font-family: "FontAwesome";
   color: #000000;
   text-transform: none;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .first-section .horizontal-block .social-icons a:hover::before {
+  color: #ffffff;
 }
 body .first-section .horizontal-block .social-icons .youtube::before {
   content: "\f167";
