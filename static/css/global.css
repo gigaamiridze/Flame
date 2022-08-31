@@ -57,3 +57,21 @@ body .first-section {
 body .first-section .explosions-video {
   height: 790px;
 }
+body .first-section .parallax-box {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+body .first-section .parallax-box .imgs-box {
+  position: relative;
+  height: 100%;
+}
+body .first-section .parallax-box .imgs-box img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+body .first-section .parallax-box .imgs-box img:first-child, body .first-section .parallax-box .imgs-box img:last-child {
+  filter: brightness(85%);
+}
