@@ -193,3 +193,55 @@ body .first-section .titles-box p {
 body .first-section .titles-box p span {
   font-weight: 400;
 }
+body .first-section .horizontal-block {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .first-section .horizontal-block h2 {
+  font-size: 45px;
+  font-family: "Monoton";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+body .first-section .horizontal-block .social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+body .first-section .horizontal-block .social-icons a {
+  width: 25px;
+  height: 25px;
+  background-color: #3c3c3c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .first-section .horizontal-block .social-icons a::before {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "FontAwesome";
+  color: #000000;
+  text-transform: none;
+}
+body .first-section .horizontal-block .social-icons .youtube::before {
+  content: "\f167";
+}
+body .first-section .horizontal-block .social-icons .instagram::before {
+  content: "\f16d";
+}
+body .first-section .horizontal-block .social-icons .twitter::before {
+  content: "\f099";
+}
+body .first-section .horizontal-block .social-icons .facebook::before {
+  content: "\f39e";
+}
+body .first-section .horizontal-block .social-icons .mail::before {
+  content: "\f0e0";
+}
